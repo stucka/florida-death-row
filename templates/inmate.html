@@ -12,11 +12,9 @@
 <div id="container">
 <img src="{{ url_for('static', filename='mugshots/' + photo) }}" width="150" height="200"/>
 
-<p>Name: {{ name }}</p>
+<p><font size="+2">{{ name }}</font></p>
 
-<p>Race: {{ race }}</p>
-
-<p>Sex: {{ sex }}</p>
+<p>{{ race }} {{ sex }}, {{ age }} years old</p> 
 
 <p>Date of Birth: {{ dob }}</p>
     
